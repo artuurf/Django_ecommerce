@@ -1,5 +1,6 @@
 /*global gettext*/
 'use strict';
+
 {
     window.addEventListener('load', function() {
         // Add anchor tag for Show/Hide link

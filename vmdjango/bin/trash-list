@@ -1,0 +1,5 @@
+#!/Users/arturfilipe/Documents/django_ecommerce/vmdjango/bin/python3
+from __future__ import absolute_import
+import sys
+from trashcli.list.main import main as main
+sys.exit(main())
