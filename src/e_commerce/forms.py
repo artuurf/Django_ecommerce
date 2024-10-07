@@ -33,3 +33,6 @@ class ContactForm(forms.Form):
         if not "gmail.com" in email:
             raise forms.ValidationError("O Email deve ser do gmail.com")
         return email
+
+    def clean_content(self):
+        raise forms.ValidationError("O conteúdo está errado.")
